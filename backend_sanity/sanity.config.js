@@ -5,9 +5,9 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'app-portfolio-fullstack',
+  title: 'Portfolio',
 
-  projectId: 'g5qwvpf5',
+  projectId: 'uokg87sa',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
