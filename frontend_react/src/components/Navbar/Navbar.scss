@@ -21,11 +21,11 @@
     align-items: center;
 
     img {
-        width: 90px;
+        width: 60px;
         height: 20px;
 
         @media screen and (min-width: 2000px) {
-            width: 180px;
+            width: 120px;
             height: 40px; 
         }
     }
