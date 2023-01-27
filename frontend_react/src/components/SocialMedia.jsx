@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsLinkedin, BsGithub, BsInstagram } from 'react-icons/bs' 
+import { BsLinkedin, BsGithub, BsInstagram, BsYoutube } from 'react-icons/bs' 
 
 function SocialMedia() {
   return (
@@ -8,8 +8,10 @@ function SocialMedia() {
             <BsLinkedin />
         </div>
         <div>
-          
             <BsGithub/>
+        </div>
+        <div>
+            <BsYoutube />
         </div>
         <div>
             <BsInstagram />
