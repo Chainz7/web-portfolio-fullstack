@@ -42,7 +42,7 @@ function Work() {
       <h2 className='head-text'>My Creative <span>Portfolio</span> Section</h2>
       
       <div className='app__work-filter'>
-        {['HTML / CSS / JS / PHP', 'React JS', 'Laravel', 'Full Stack', 'Game', 'All'].map((item, index) => (
+        {['HTML / CSS / JS / PHP', 'React JS', 'Laravel', 'Full Stack', 'Game', 'Self Project', 'Real Project', 'All'].map((item, index) => (
           <div 
             key={index}
             onClick={() => hanldeWorkFilter(item)}
