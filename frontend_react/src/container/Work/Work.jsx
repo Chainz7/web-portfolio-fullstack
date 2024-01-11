@@ -50,6 +50,7 @@ function Work() {
 
   return (
     <>
+<<<<<<< HEAD
       <h2 className="head-text">
         My Creative <span>Portfolio</span> Section
       </h2>
@@ -68,6 +69,20 @@ function Work() {
             </div>
           )
         )}
+=======
+      <h2 className='head-text'>My Creative <span>Portfolio</span> Section</h2>
+      
+      <div className='app__work-filter'>
+        {['HTML / CSS / JS / PHP', 'React JS', 'Laravel', 'Full Stack', 'Game', 'All'].map((item, index) => (
+          <div 
+            key={index}
+            onClick={() => hanldeWorkFilter(item)}
+            className={`app__work-filter-item app__flex p-text ${activeFilter === item ? 'item-active' : ''}`}
+          > 
+            {item}
+          </div>
+        ))}
+>>>>>>> 3d7944d5cb03f06daf7dd35523b4921c151af2ea
       </div>
 
       <motion.div
@@ -130,7 +145,14 @@ function Work() {
 }
 
 export default AppWrap(
+<<<<<<< HEAD
   MotionWrap(Work, "app__works"),
   "work",
   "app__primarybg"
 );
+=======
+  MotionWrap(Work, 'app__works'), 
+  'work',
+  'app__primarybg'
+)
+>>>>>>> 3d7944d5cb03f06daf7dd35523b4921c151af2ea
